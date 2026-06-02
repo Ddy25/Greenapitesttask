@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     padding: 30px;
-    background: rgb(1, 68, 5);
+    background: rgb(30, 30, 30);
 }
 
 .wrapper {
@@ -25,12 +25,17 @@ button {
     margin-bottom: 15px;
     padding: 8px;
     box-sizing: border-box;
+    color: rgb(46, 147, 4);
+    background-color: #d4d4d4;
+    border: 1px solid #555555;
 }
 
 button {
     height: 45px;
     cursor: pointer;
     font-weight: bold;
+    color: rgb(46, 147, 4);
+    background-color: #3a3a3a;
 }
 
 #message {
@@ -38,10 +43,12 @@ button {
 }
 
 #response {
-    height: 490px;
+    height: 580px;
     width: 600px;
     resize: none;
     font-family: Consolas, monospace;
+    background-color: #bdbdbd;
+    border: 1px solid #444444;
 }
 .left-panel {
     width: 300px;
@@ -51,9 +58,12 @@ button {
     width: 600px;
 }
 h2, h3 {
-    color: white;
+    color: rgb(46, 147, 4);
 }
 
 label {
-    color: white;
+    color: rgb(46, 147, 4);
+}
+.spacer {
+    height: 50px;
 }
