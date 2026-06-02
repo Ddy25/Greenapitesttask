@@ -2,7 +2,7 @@
 
 ## Description
 
-This project was developed as a test assignment for GREEN-API.
+This project was developed as a test assignment for GREEN-API .
 
 The web page allows users to interact with GREEN-API methods by providing their own `idInstance` and `ApiTokenInstance`.
 
