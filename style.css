@@ -30,6 +30,7 @@ button {
 button {
     height: 45px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 #message {
@@ -48,4 +49,11 @@ button {
 
 .right-panel {
     width: 600px;
+}
+h2, h3 {
+    color: white;
+}
+
+label {
+    color: white;
 }
