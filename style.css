@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background: rgb(1, 68, 5);
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.left-panel {
+    width: 280px;
+}
+
+.right-panel {
+    width: 500px;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    height: 45px;
+    cursor: pointer;
+}
+
+#message {
+    height: 80px;
+}
+
+#response {
+    height: 490px;
+    width: 600px;
+    resize: none;
+    font-family: Consolas, monospace;
+}
+.left-panel {
+    width: 300px;
+}
+
+.right-panel {
+    width: 600px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GREEN API TEST</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>GREEN API TEST</h2>
+
+<div class="wrapper">
+
+    <div class="left-panel">
+
+        <input id="idInstance" placeholder="Номер инстанса">
+
+        <input id="apiToken" placeholder="Токен">
+
+        <button onclick="getSettings()">Текущие настройки Аккаунта</button>
+
+        <button onclick="getStateInstance()">Статус Аккаунта</button>
+
+        <input id="phone"
+               placeholder="Укажите номер телефона">
+
+        <textarea id="message"
+                  placeholder="Напишите сообщение"></textarea>
+
+        <button onclick="sendMessage()">Отправить сообщение</button>
+
+        <input id="filePhone"
+               placeholder="Укажите номер телефона">
+
+        <input id="fileUrl"
+               placeholder="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf">
+
+        <button onclick="sendFileByUrl()">Отправить файл</button>
+
+    </div>
+
+    <div class="right-panel">
+
+        <h3>Ответ API:</h3>
+        <label>Вывод:</label>
+
+        <textarea
+            id="response"
+            readonly>
+        </textarea>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
